@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'knock-knock-jokes' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData knock-knock-jokes
+8 silly fetchNamedPackageData knock-knock-jokes
+9 silly mapToRegistry name knock-knock-jokes
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'knock-knock-jokes',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'knock-knock-jokes',
+12 silly mapToRegistry   name: 'knock-knock-jokes',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/knock-knock-jokes
+14 verbose request uri https://registry.npmjs.org/knock-knock-jokes
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:36:26 AM
+17 verbose request id 282e7f98fbe373e6
+18 verbose etag W/"f081799706fb18bb3481bd89cd6754c3"
+19 verbose lastModified Sun, 27 May 2018 06:09:02 GMT
+20 http request GET https://registry.npmjs.org/knock-knock-jokes
+21 http 304 https://registry.npmjs.org/knock-knock-jokes
+22 verbose headers { date: 'Thu, 31 May 2018 01:36:26 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d0c8d02cc1cb86a93969403a07498c83c1527730586; expires=Fri, 31-May-19 01:36:26 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cf-ray': '4235b5a40aa17131-ORD',
+22 verbose headers   etag: '"f081799706fb18bb3481bd89cd6754c3"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sun, 27 May 2018 06:09:02 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Thu, 31 May 2018 01:36:26 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d0c8d02cc1cb86a93969403a07498c83c1527730586; expires=Fri, 31-May-19 01:36:26 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cf-ray': '4235b5a40aa17131-ORD',
+23 silly get     etag: '"f081799706fb18bb3481bd89cd6754c3"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sun, 27 May 2018 06:09:02 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/knock-knock-jokes from cache
+25 verbose get saving knock-knock-jokes to /home/ubuntu/.npm/registry.npmjs.org/knock-knock-jokes/.cache.json
+26 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule knock-knock-jokes@1.7.0 checking installable status
+40 silly cache add args [ 'knock-knock-jokes', null ]
+41 verbose cache add spec knock-knock-jokes
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'knock-knock-jokes',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'knock-knock-jokes',
+42 silly cache add   name: 'knock-knock-jokes',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed knock-knock-jokes@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for knock-knock-jokes
+45 info addNameTag [ 'knock-knock-jokes', 'latest' ]
+46 silly mapToRegistry name knock-knock-jokes
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'knock-knock-jokes',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'knock-knock-jokes',
+49 silly mapToRegistry   name: 'knock-knock-jokes',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/knock-knock-jokes
+51 verbose addNameTag registry:https://registry.npmjs.org/knock-knock-jokes not in flight; fetching
+52 verbose get https://registry.npmjs.org/knock-knock-jokes not expired, no request
+53 silly addNameTag next cb for knock-knock-jokes with tag latest
+54 silly addNamed knock-knock-jokes@1.7.0
+55 verbose addNamed "1.7.0" is a plain semver version for knock-knock-jokes
+56 silly rollbackFailedOptional Starting
+57 silly rollbackFailedOptional Finishing
+58 silly runTopLevelLifecycles Finishing
+59 silly install printInstalled
+60 verbose stack Error: Failed to parse json
+60 verbose stack No data, empty input at 1:1
+60 verbose stack
+60 verbose stack ^
+60 verbose stack     at parseError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:390:11)
+60 verbose stack     at parseJson (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:79:23)
+60 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
+60 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+60 verbose stack     at tryToString (fs.js:456:3)
+60 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+61 verbose cwd /home/ubuntu/workspace/IntroToNPM/DemoApp
+62 error Linux 4.9.80-c9
+63 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "i" "knock-knock-jokes"
+64 error node v6.11.2
+65 error npm  v3.10.10
+66 error file /home/ubuntu/.npm/knock-knock-jokes/1.7.0/package/package.json
+67 error code EJSONPARSE
+68 error Failed to parse json
+68 error No data, empty input at 1:1
+68 error
+68 error ^
+69 error File: /home/ubuntu/.npm/knock-knock-jokes/1.7.0/package/package.json
+70 error Failed to parse package.json data.
+70 error package.json must be actual JSON, not just JavaScript.
+70 error
+70 error This is not a bug in npm.
+70 error Tell the package author to fix their package.json file. JSON.parse
+71 verbose exit [ 1, true ]
